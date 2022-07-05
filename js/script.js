@@ -1,19 +1,16 @@
-let computerMove = `kamień`;
-let playerMove = 'papier';
-
-printMessage('Zagrałem ' + computerMove + '! Jeśli Twój ruch to papier, to wygrywasz!');
-printMessage('Zagrałeś ' + playerMove);
-
 let randomNumber = Math.floor(Math.random() * 3 + 1);
 
 printMessage(randomNumber);
 
+let computerMove = 'nieznany ruch';
+
 if(randomNumber == 1){
-	printMessage('Kamień');
+	computerMove = 'Kamień';
 }
-if(randomNumber == 2){
-    printMessage('Papier');
+else if(randomNumber == 2){
+    computerMove = 'Papier';
 }
-if(randomNumber == 3){
-    printMessage('Nozyce');
+else{
+    computerMove = 'Nozyce';
 } 
+printMessage("Komputer: " + "Mój ruch to " + computerMove);
