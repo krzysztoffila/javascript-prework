@@ -20,7 +20,7 @@ if(playerInput == '1'){
 }else if(playerInput == '3'){
     playerMove = 'Nożyce';
 }else{
-    printMessage('nieznany ruch. Wybierz przedział 1-3');
+    printMessage('Nieznany ruch. Wybierz przedział 1-3');
 };
 printMessage('Twój ruch to: ' + playerMove);
 
@@ -36,6 +36,6 @@ else if( computerMove == 'Papier' && playerMove == 'Kamień' || computerMove == 
 else if(computerMove == 'Papier' && playerMove == 'Papier' || computerMove == 'Kamień' && playerMove == 'Kamień' || computerMove == 'Nożyce' && playerMove == 'Nożyce'){
     printMessage('REMIS');
 }
-else{
+else if(playerInput > 3){
     printMessage('Niepoprawny ruch GRACZA. Wybierz przedział 1-3');
 };
