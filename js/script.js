@@ -19,17 +19,15 @@ if(playerInput == '1'){
     playerMove = 'Papier'
 }else if(playerInput == '3'){
     playerMove = 'Nożyce';
-}else{
-    printMessage('Nieznany ruch. Wybierz przedział 1-3');
-};
+}
 printMessage('Twój ruch to: ' + playerMove);
 
 //Wygrana Gracza
-if( computerMove == 'Kamień' && playerMove == 'Papier' || computerMove == 'Papier' && playerMove == 'Nożyce'){
+if( computerMove == 'Kamień' && playerMove == 'Papier' || computerMove == 'Papier' && playerMove == 'Nożyce' || computerMove == 'Nożyce' && playerMove == 'Kamień'){
     printMessage('Ty wygrywasz!');
 }
 //Wygrana Komputera
-else if( computerMove == 'Papier' && playerMove == 'Kamień' || computerMove == 'Nożyce' && playerMove == 'Papier'){
+else if( computerMove == 'Papier' && playerMove == 'Kamień' || computerMove == 'Nożyce' && playerMove == 'Papier' || computerMove == 'Kamień' && playerMove == 'Nożyce'){
     printMessage('Wygrywa Komputer');
 }
 //Remis
