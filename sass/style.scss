@@ -2,5 +2,41 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(216, 195, 195);
+    background-color: #3688a1;
+    font-family:'Arial', Courier, monospace;
+    color: #fff;
 }
+h1{
+    text-align: center;
+    padding: 2em;
+    letter-spacing: 3px;
+    color: rgb(251, 238, 238);
+}
+#buttons{
+    text-align: center;
+    letter-spacing: 40px;
+}
+button{
+    font-size: 20px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #000;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+    &:hover{
+        background-color: #3688a1;
+        border: 1px  solid black;
+    }
+}
+#messages{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+i{
+    font-size: 36px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
