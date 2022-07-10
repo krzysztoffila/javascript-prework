@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #3688a1;
+  font-family: "Arial", Courier, monospace;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  padding: 2em;
+  letter-spacing: 3px;
+  color: rgb(251, 238, 238);
+}
+
+#buttons {
+  text-align: center;
+  letter-spacing: 40px;
+}
+
+button {
+  font-size: 20px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #000;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100px;
+}
+button:hover {
+  background-color: #3688a1;
+  border: 1px solid black;
+}
+
+#messages {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+i {
+  font-size: 36px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLFNBQUE7RUFDQSxVQUFBO0VBQ0Esc0JBQUE7RUFDQSx5QkFBQTtFQUNBLHdDQUFBO0VBQ0EsV0FBQTtBQ0NKOztBRENBO0VBQ0ksa0JBQUE7RUFDQSxZQUFBO0VBQ0EsbUJBQUE7RUFDQSx5QkFBQTtBQ0VKOztBREFBO0VBQ0ksa0JBQUE7RUFDQSxvQkFBQTtBQ0dKOztBRERBO0VBQ0ksZUFBQTtFQUNBLHNCQUFBO0VBQ0Esc0JBQUE7RUFDQSxXQUFBO0VBQ0EsYUFBQTtFQUNBLG1CQUFBO0VBQ0EsZUFBQTtFQUNBLFlBQUE7QUNJSjtBREhJO0VBQ0kseUJBQUE7RUFDQSx1QkFBQTtBQ0tSOztBREZBO0VBQ0ksZUFBQTtFQUNBLG1CQUFBO0FDS0o7O0FESEE7RUFDSSxlQUFBO0VBQ0Esa0JBQUE7RUFDQSxzQkFBQTtBQ01KIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
